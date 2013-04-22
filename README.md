@@ -24,6 +24,17 @@ In archlinux its simple:
 
 <p>You will need few more apps to get your xmonad desktop look cool and more functional.</p>
 
+<h3>Terminal</h3>
+<p>As xmonad user you will spend most of time in terminal so it is nice to make it look good and interesting so you dont get bored. I use rxvt-unicode.</p>
+
+<p>Installation is easy:</p>
+<pre><code>sudo pacman -S rxvt-unicode</code></pre>
+
+<p>To style it you need to copy .Xdefaults file from git to your user dir. You can tweak colors and other stuff by editing .Xdefaults file.</p>
+
+<h3>Command Prompt</h3>
+<p>When you start terminal you want to see cool command prompt? Just copy my .bashrc file from git into your user dir and thats it. You can tweak it more by editing this file but be sure to read about it online or you could break it.</p>
+
 <h3>Status Bars</h3>
 
 <p>For top and bottom status bars you will need to install conky and dzen2:</p>
@@ -45,3 +56,4 @@ In archlinux its simple:
 <p>For runing most of apps i added shortcuts which you can find in xmonad.hs configuration file. For some rarely used apps I use dmenu2 app with ALT+P shortcut. You can install dmenu2 from AUR.</p>
 
 <pre><code>sudo packer -S dmenu2</code></pre>
+
