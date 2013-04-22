@@ -1,0 +1,15 @@
+# Conky configuration for Dzen2, to be piped into Bottom bar
+
+##############################################
+#  Settings
+##############################################
+use_xft yes
+out_to_x no
+background no
+out_to_console yes
+update_interval 1.0
+total_run_times 0
+use_spacer none
+alignment bottom_left
+TEXT
+^fg(\#87afd7)^i(/home/samir/.xmonad/dzen/arch_10x10.xbm) ^fg(\#9d9d9d)Kernel: ^fg(\#87afd7)${kernel}	^fg(\#444444)|^fg(\#9d9d9d) 																																																																											RAM: ^fg(\#FEA63C)${mem}^fg(\#9d9d9d)/^fg(\#BDE077)${memmax} ^fg(\#87afd7)${membar}	^fg(\#444444)|	 ^fg(\#9d9d9d)Root: ^fg(\#FEA63C)${fs_used /}^fg(\#9d9d9d)/^fg(\#BDE077)${fs_free /} ^fg(\#87afd7)${fs_bar /}	^fg(\#444444)|	^fg(\#9d9d9d)Home: ^fg(\#FEA63C)${fs_used /home}^fg(\#9d9d9d)/^fg(\#BDE077)${fs_free /home} ^fg(\#87afd7) ${fs_bar /home}		^fg(\#444444)																																																																																													|	^fg(\#9d9d9d)UpTime: ^fg(\#87afd7)${UpTime}		
