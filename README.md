@@ -1,6 +1,8 @@
 CodeMonkey
 ==========
 
+<img src="https://github.com/SKaDiZZ/codemonkey/blob/master/screenshots/codemonkey.png" />
+
 XmonaD, conky, dzen2, dmenu2, mpd, ncmpcpp, vimrc, .Xdefaults, .bashrc configuration and dotfiles ...
 
 <h2>Install Xmonad</h2>
