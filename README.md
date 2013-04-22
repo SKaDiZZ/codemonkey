@@ -41,6 +41,8 @@ In archlinux its simple:
 
 <pre><code>sudo pacman -S conky dzen2</code></pre>
 
+<p>After installation add .conkydzentop and .conkydzenbott from git to your user dir.</p>
+
 <h3>Wallpapers and gtk themes</h3>
 
 <p>To manage your desktop wallpapers and change gtk themes and icons you'll need to install nitrogen and lxappearance.</p>
