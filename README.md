@@ -13,6 +13,9 @@ In archlinux its simple:
 <pre><code>sudo pacman -S xmonad xmonad-contrib</code></pre>
 </p>
 
+<h3>Configure Xmonad</h3>
+<p>All configuration in xmonad is done by editing xmonad.hs file located in /yourusername/.xmonad directory. I already done this for you so all you need is to copy .xmonad directory from git into your user's directory and restart.</p>
+
 <h3>Start Xmonad</h3>
 
 <p>Replace .xinitrc file with file provided in git</p>
@@ -33,6 +36,12 @@ In archlinux its simple:
 
 <pre><code>sudo pacman -S nitrogen lxappearance</code></pre>
 
+<p>You can get wallpaper from screenshot -> <a href="http://wallbase.cc/wallpaper/277997">Here</a>.</p>
+
 <h3>Font</h3>
 <p>In my codemonkey desktop setup i use Envy Code R font for terminal and status bars. You can download it from <a href="http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released/">Here</a>.</p>
 
+<h3>Runing apps</h3>
+<p>For runing most of apps i added shortcuts which you can find in xmonad.hs configuration file. For some rarely used apps I use dmenu2 app with ALT+P shortcut. You can install dmenu2 from AUR.</p>
+
+<pre><code>sudo packer -S dmenu2</code></pre>
